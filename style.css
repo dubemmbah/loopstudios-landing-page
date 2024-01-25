@@ -38,7 +38,6 @@ body {
 /* HEADER */
 .header {
   background: url(./images/desktop/image-hero.jpg) no-repeat center/cover;
-  /* padding: 6rem 16rem; */
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
@@ -296,10 +295,6 @@ body {
   margin-bottom: 2.5rem;
 }
 
-.bottom {
-  /* margin-bottom: 0; */
-}
-
 .connect {
   display: flex;
   justify-content: flex-end;
@@ -416,7 +411,7 @@ body {
 
   .section-about article h2 {
     width: 100%;
-    font-size: 6.5rem;
+    font-size: 5.5rem;
   }
 
   .section-about article p {
@@ -440,13 +435,13 @@ body {
   }
 
   .events-heading button {
-    display: inline-block;
     position: absolute;
     bottom: 6rem;
     left: 50%;
     transform: translate(-50%);
     padding: 1.5rem 4.5rem;
     letter-spacing: 5px;
+    border: 1px solid var(--black);
   }
 
   .events {
@@ -504,8 +499,26 @@ body {
     padding-right: 4rem;
   }
 
+  .heading-main {
+    padding: 2.5rem;
+  }
+
   .events-heading h2 {
-    /* font-size: 5.5rem; */
     letter-spacing: 0;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .heading-main {
+    font-size: 5rem;
+  }
+
+  .section-about article h2,
+  .events-heading h2 {
+    font-size: 4.2rem;
+  }
+
+  .section-about article p {
+    padding: 0 2.5rem;
   }
 }
