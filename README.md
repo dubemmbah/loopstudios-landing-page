@@ -1,6 +1,4 @@
 # Loopstudios Landing Page
-
-Loopstudios Landing Page
 This repository contains the code for the Loopstudios landing page, a project created as part of a challenge from Frontend Mentor. The landing page showcases immersive experiences delivered by Loopstudios through virtual reality projects.
 
 ## Table of Contents
