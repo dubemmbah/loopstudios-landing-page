@@ -38,6 +38,7 @@ body {
 /* HEADER */
 .header {
   background: url(./images/desktop/image-hero.jpg) no-repeat center/cover;
+  filter: brightness(0.85);
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
