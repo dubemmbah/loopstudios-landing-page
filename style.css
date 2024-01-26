@@ -113,7 +113,7 @@ body {
 
 .mobile-nav-list {
   padding: 0;
-  margin-top: 20rem;
+  margin-top: 16rem;
   display: flex;
   gap: 5rem;
   flex-direction: column;
@@ -502,7 +502,7 @@ body {
   }
 
   .heading-main {
-    padding: 2rem;
+    padding: 1.5rem;
   }
 
   .events-heading h2 {
